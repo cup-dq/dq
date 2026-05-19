@@ -1,0 +1,10 @@
+---
+---
+
+@import "hamilton/main";
+
+// 去掉导航菜单选中状态的下划线
+.site-nav .trigger li a.current-page {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
